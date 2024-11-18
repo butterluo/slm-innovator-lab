@@ -176,3 +176,5 @@ _site/
 0_lab_preparation/3_structured_output.ipynb
 
 Gemfile.lock
+
+config_prd.yml
