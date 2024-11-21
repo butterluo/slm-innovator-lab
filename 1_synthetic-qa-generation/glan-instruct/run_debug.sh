@@ -11,6 +11,7 @@ python generate.py \
     --question_batch_size 4 \
     --answer_max_tokens 512 \
     --answer_batch_size 4
+# 生成结果在./output中，其中带Questions标记的jsonl是只有问题的，带Instructions标记的jsonl是问题答案都有的
 
 # Generate answers only
 # python generate_answer_only.py \
