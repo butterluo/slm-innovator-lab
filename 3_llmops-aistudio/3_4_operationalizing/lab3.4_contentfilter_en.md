@@ -16,6 +16,7 @@ nav_order: 641
 
 - An Azure subscription where you can create an AI Hub and AI project Resource
 - Registered the Fine-tune model and deployed LLMs in Azure AI Studio
+- [Create content safe resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesContentSafety) in the same region of workspace.
 
 ### Task
 

@@ -26,7 +26,7 @@ nodes:
     type: code
     path: phi35_finetuned.py
   inputs:
-    connection: replace with your connection name
+    connection: lgph35-1
     question: ${inputs.question}
     context: ${inputs.context}
 - name: gpt4o
@@ -40,7 +40,7 @@ nodes:
     top_p: 1
     max_tokens: 256
     question: ${inputs.question}
-  connection: replace with your connection name
+  connection: aoai-tst1
   api: chat
   module: promptflow.tools.aoai
   use_variants: false
