@@ -11,7 +11,7 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     # # Run the Python script with the current disciplines file
     python generate.py \
         --disciplines_filepath "$discipline_file" \
-        --language Korean \
+        --language Chinese \
         --max_number_of_subjects 15 \
         --max_number_of_subtopics 30 \
         --max_number_of_session_name 30 \

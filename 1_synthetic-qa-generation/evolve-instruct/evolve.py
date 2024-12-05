@@ -76,7 +76,7 @@ class WizardLM:
             min_len_chars: int = 512,
             max_len_chars: int = 1024,
             verbose: bool = False,
-            language: str = "Korean",
+            language: str = "Chinese",
     ):
         """
         Open-Source Implementation of https://arxiv.org/abs/2304.12244

@@ -21,7 +21,7 @@ This open-source implementation is based on the [WizardLM paper](https://arxiv.o
 We added the following features to the original implementation:
 
 - Modified it to be able to call Azure OpenAI by adding the `AzureGPTPipeline` class.
-- The prompt has been refined and modified to support multiple languages. Use `--language` argument for other language. (e.g., `--language Korean`)
+- The prompt has been refined and modified to support multiple languages. Use `--language` argument for other language. (e.g., `--language Chinese`)
 - Made it possible to create questions only when necessary. A better strategy is to create questions and answers separately. Use `--question_only` argument. (e.g., `--questioin_only True`)
 - Prevented infinite loop. `mutate()` in the original implementation determines the validity of the augmented statement and repeats the loop until it is valid. However, this process takes a very long time and there is a problem in that the loop repeats infinitely in certain situations.
 

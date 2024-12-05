@@ -5,7 +5,7 @@ from glan import generate_answers, read_jsonl
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Options')
 
-    parser.add_argument("--questions_filepath", type=str, default="samples/GLAN_Instructions_Korean_20_Samples_3b7e.jsonl")
+    parser.add_argument("--questions_filepath", type=str, default="samples/GLAN_Instructions_English_20_Samples_3b7e.jsonl")
     parser.add_argument("--model_name_for_answer", type=str, default="gpt-4o")
     parser.add_argument("--answer_max_tokens", type=int, default=2048)
     parser.add_argument("--answer_batch_size", type=int, default=5)

@@ -8,7 +8,7 @@ if __name__ == "__main__":
     parser.add_argument("--generate_question_only", type=bool, default=False)
 
     parser.add_argument("--disciplines_filepath", type=str, default="disciplines_sample.txt")
-    parser.add_argument("--language", type=str, default="Korean")
+    parser.add_argument("--language", type=str, default="Chinese")
     parser.add_argument("--model_name", type=str, default="gpt-4o")
     parser.add_argument("--model_name_for_answer", type=str, default="gpt-4o")
     

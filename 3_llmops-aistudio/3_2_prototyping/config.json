@@ -1,5 +1,5 @@
 {
-    "subscription_id": "49aee8bf-3f02-464f-a0ba-e3467e7d85e2",
-    "resource_group": "hubestus1grp",
-    "workspace_name": "lgestus1"
+    "subscription_id": "<YOUR-SUBSCRIPTION-ID>",
+    "resource_group": "<YOUR-RESOURCE-GROUP>",
+    "workspace_name": "<YOUR-AZURE-AI-FOUNDRY-PROJECT-NAME>"
 }

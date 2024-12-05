@@ -265,7 +265,7 @@ def sample_class_sessions_and_key_concepts(class_sessions, key_concepts, single_
 
 def generate_questions(
         class_sessions, key_concepts, subject, level, subtopics, model_name="gpt-4o", 
-        num_iterations=2, num_questions_per_iteration=5, max_tokens=2048, batch_size=4, language="Korean", **kwargs
+        num_iterations=2, num_questions_per_iteration=5, max_tokens=2048, batch_size=4, language="Chinese", **kwargs
     ):
     """
     Generate questions based on class sessions and key concepts using LangChain pipeline. Please refer to section 2.4 of the paper.

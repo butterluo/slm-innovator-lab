@@ -1,6 +1,6 @@
 python generate.py \
     --disciplines_filepath disciplines1.txt \
-    --language Korean \
+    --language Chinese \
     --max_number_of_subjects 15 \
     --max_number_of_subtopics 30 \
     --max_number_of_session_name 30 \
